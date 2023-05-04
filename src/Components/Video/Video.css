@@ -1,0 +1,41 @@
+.container{
+    width: 240px;
+    margin: 0 3.2px;
+    float: left;
+    position: relative;
+}
+.pic img{
+    width: 100%;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: white;
+}
+.channel, .views{
+    color: #ccc;
+    padding: 0 8px;
+}
+.close{
+   font-size: 18px;
+   background-color: transparent;
+   border: none;
+   color: white;
+   cursor: pointer;
+   position: absolute;
+   right: 5px;
+   top: 5px;
+}
+.edit{
+    font-size: 18px;
+    background-color: black;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left:5px;
+    top: 5px;
+ }
